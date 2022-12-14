@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: rgba(89, 170, 250, 0.302);
+}
+h1{
+    color: yellowgreen;
+    font-family: cursive;
+    margin-top: 4%;
+    margin-left: 39%;
+}
+div{
+    background-image: linear-gradient(orange, #fff, green);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 230px;
+    padding: 30px;
+    background-color: grey;
+    border-radius: 8px;
+    outline: 2px dashed crimson;
+    outline-offset: 4px;
+}
+input{
+    margin: 10px;
+    text-align: center;
+}
+button{
+    margin: 4px;
+    padding: 4px 9px;
+    background-color: brown;
+    border: none;
+    border-radius: 12px;
+    color: yellow;
+}
